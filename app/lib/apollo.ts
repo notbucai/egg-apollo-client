@@ -2,9 +2,9 @@ import * as fs from 'fs';
 
 import { Application } from 'egg';
 
-import { Apollo as NativeApollo } from '@gaoding/apollo-client';
+import { Apollo as NativeApollo } from '@bucai/apollo-client';
 
-import { IApolloConfig } from '@gaoding/apollo-client/dist/interface/IApolloConfig';
+import { IApolloConfig } from '@bucai/apollo-client/dist/interface/IApolloConfig';
 
 export interface ApolloReponseConfigData {
     // '{"appId":"ums-local","cluster":"default","namespaceName":"application","configurations":{"NODE_ENV":"production"}
